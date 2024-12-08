@@ -1,0 +1,52 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2b49b5;
+    
+    background-image: url("pro2back.jpg");
+}
+
+.game-container {
+    text-align: center;
+    background-color: #f4f3ee;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.choice {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.choice:hover {
+    background-color: #3d343489;
+}
+
+.result {
+    font-size: 18px;
+    color: #333;
+}
